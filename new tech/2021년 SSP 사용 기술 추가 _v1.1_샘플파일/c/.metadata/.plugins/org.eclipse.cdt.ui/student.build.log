@@ -1,0 +1,10 @@
+23:22:46 **** Build of configuration Debug for project student ****
+Info: Configuration "Debug" uses tool-chain "Cygwin GCC" that is unsupported on this system, attempting to build anyway.
+make all 
+Cannot run program "make": Launching failed
+
+Error: Program "make" not found in PATH
+PATH=[\bin;C:/Program Files (x86)/Java/jre1.8.0_45/bin/client;C:/Program Files (x86)/Java/jre1.8.0_45/bin;C:/Program Files (x86)/Java/jre1.8.0_45/lib/i386;C:\ProgramData\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0;C:\Windows\System32\WindowsPowerShell\v1.0;C:\Program Files\Citrix\ICAService;C:\Program Files\Citrix\System32;C:\Program Files\Citrix\Virtual Desktop Agent;C:\Program Files (x86)\Common Files\Citrix\System32;C:\Program Files\Citrix\ICAService\;C:\Program Files\Citrix\System32\;C:\c_test\eclipse]
+
+23:22:46 Build Finished (took 75ms)
+

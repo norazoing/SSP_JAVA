@@ -1,0 +1,220 @@
+13:23:43 **** Build of configuration Default for project SUB1 ****
+make all 
+gcc -c main.c -o main.o -pthread -Wall  -g -O0 -I../util/include
+gcc -o SP_TEST.EXE main.o -pthread -L../util/lib -lgthread-2.0 -lgio-2.0 -lgobject-2.0 -lglib-2.0 -lintl
+13:24:34 **** Clean-only build of configuration Default for project SUB1 ****
+make clean 
+rm -f SP_TEST.EXE
+rm -f main.o
+15:17:31 **** Build of configuration Default for project SUB1 ****
+make all 
+gcc -c main.c -o main.o -pthread -Wall  -g -O0 -I../util/include
+gcc -o SP_TEST.EXE main.o -pthread -L../util/lib -lgthread-2.0 -lgio-2.0 -lgobject-2.0 -lglib-2.0 -lintl
+15:18:21 **** Incremental Build of configuration Default for project SUB1 ****
+make all 
+make: Nothing to be done for 'all'.
+15:19:47 **** Clean-only build of configuration Default for project SUB1 ****
+make clean 
+rm -f SP_TEST.EXE
+rm -f main.o
+17:34:48 **** Build of configuration Default for project SUB1 ****
+make all 
+gcc -c main.c -o main.o -pthread -Wall  -g -O0 -I../util/include
+gcc -o SP_TEST.EXE main.o -pthread -L../util/lib -lgthread-2.0 -lgio-2.0 -lgobject-2.0 -lglib-2.0 -lintl
+17:35:33 **** Incremental Build of configuration Default for project SUB1 ****
+make all 
+make: Nothing to be done for 'all'.
+17:35:33 **** Build of configuration Default for project SUB2 ****
+make all 
+gcc -c main.c -o main.o -pthread -Wall  -g -O0 -I../util/include
+gcc -o SP_TEST.EXE main.o -pthread -L../util/lib -lgthread-2.0 -lgio-2.0 -lgobject-2.0 -lglib-2.0 -lintl
+17:35:34 **** Build of configuration Default for project SUB3 ****
+make all 
+gcc -c main.c -o main.o -pthread -Wall  -g -O0 -I../util/include
+gcc -o SP_TEST.EXE main.o -pthread -L../util/lib -lgthread-2.0 -lgio-2.0 -lgobject-2.0 -lglib-2.0 -lintl
+17:35:34 **** Build of configuration Default for project SUB4 ****
+make all 
+gcc -c main.c -o main.o -pthread -Wall  -g -O0 -I../util/include
+gcc -o SP_TEST.EXE main.o -pthread -L../util/lib -lgthread-2.0 -lgio-2.0 -lgobject-2.0 -lglib-2.0 -lintl
+17:35:35 **** Build of configuration Default for project SUB5 ****
+make all 
+gcc -c main.c -o main.o -pthread -Wall  -g -O0 -I../util/include
+gcc -o SP_TEST.EXE main.o -pthread -L../util/lib -lgthread-2.0 -lgio-2.0 -lgobject-2.0 -lglib-2.0 -lintl
+17:35:41 **** Incremental Build of configuration Default for project SUB2 ****
+make all 
+make: Nothing to be done for 'all'.
+17:36:08 **** Incremental Build of configuration Default for project SUB5 ****
+make all 
+make: Nothing to be done for 'all'.
+17:36:28 **** Incremental Build of configuration Default for project SUB4 ****
+make all 
+make: Nothing to be done for 'all'.
+17:36:42 **** Incremental Build of configuration Default for project SUB3 ****
+make all 
+make: Nothing to be done for 'all'.
+17:36:58 **** Incremental Build of configuration Default for project SUB2 ****
+make all 
+make: Nothing to be done for 'all'.
+17:37:13 **** Incremental Build of configuration Default for project SUB1 ****
+make all 
+make: Nothing to be done for 'all'.
+17:37:46 **** Clean-only build of configuration Default for project SUB1 ****
+make clean 
+rm -f SP_TEST.EXE
+rm -f main.o
+17:37:46 **** Clean-only build of configuration Default for project SUB2 ****
+make clean 
+rm -f SP_TEST.EXE
+rm -f main.o
+17:37:46 **** Clean-only build of configuration Default for project SUB3 ****
+make clean 
+rm -f SP_TEST.EXE
+rm -f main.o
+17:37:46 **** Clean-only build of configuration Default for project SUB4 ****
+make clean 
+rm -f SP_TEST.EXE
+rm -f main.o
+17:37:47 **** Clean-only build of configuration Default for project SUB5 ****
+make clean 
+rm -f SP_TEST.EXE
+rm -f main.o
+16:44:48 **** Build of configuration Default for project SUB1 ****
+make all 
+gcc -c main.c -o main.o -pthread -Wall  -g -O0 -I../util/include
+gcc -o SP_TEST.EXE main.o -pthread -L../util/lib -L. -lgthread-2.0 -lgio-2.0 -lgobject-2.0 -lglib-2.0 -lintl
+16:44:49 **** Build of configuration Default for project SUB2 ****
+make all 
+gcc -c main.c -o main.o -pthread -Wall  -g -O0 -I../util/include
+gcc -o SP_TEST.EXE main.o -pthread -L../util/lib -L. -lgthread-2.0 -lgio-2.0 -lgobject-2.0 -lglib-2.0 -lintl
+16:44:49 **** Build of configuration Default for project SUB3 ****
+make all 
+gcc -c main.c -o main.o -pthread -Wall  -g -O0 -I../util/include
+gcc -o SP_TEST.EXE main.o -pthread -L../util/lib -L. -lgthread-2.0 -lgio-2.0 -lgobject-2.0 -lglib-2.0 -lintl
+16:44:50 **** Build of configuration Default for project SUB4 ****
+make all 
+gcc -c main.c -o main.o -pthread -Wall  -g -O0 -I../util/include
+gcc -o SP_TEST.EXE main.o -pthread -L../util/lib -L. -lgthread-2.0 -lgio-2.0 -lgobject-2.0 -lglib-2.0 -lintl
+16:44:50 **** Build of configuration Default for project SUB5 ****
+make all 
+gcc -c main.c -o main.o -pthread -Wall  -g -O0 -I../util/include
+gcc -o SP_TEST.EXE main.o -pthread -L../util/lib -L. -lgthread-2.0 -lgio-2.0 -lgobject-2.0 -lglib-2.0 -lintl
+16:44:59 **** Clean-only build of configuration Default for project SUB1 ****
+make clean 
+rm -f SP_TEST.EXE
+rm -f main.o
+16:44:59 **** Clean-only build of configuration Default for project SUB2 ****
+make clean 
+rm -f SP_TEST.EXE
+rm -f main.o
+16:45:00 **** Clean-only build of configuration Default for project SUB3 ****
+make clean 
+rm -f SP_TEST.EXE
+rm -f main.o
+16:45:00 **** Clean-only build of configuration Default for project SUB4 ****
+make clean 
+rm -f SP_TEST.EXE
+rm -f main.o
+16:45:00 **** Clean-only build of configuration Default for project SUB5 ****
+make clean 
+rm -f SP_TEST.EXE
+rm -f main.o
+18:06:05 **** Build of configuration Default for project SUB1 ****
+make all 
+make: Nothing to be done for 'all'.
+18:06:29 **** Incremental Build of configuration Default for project SUB1 ****
+make all 
+gcc -c main.c -o main.o -pthread -Wall  -g -O0 -I../util/include
+gcc -o SP_TEST.EXE main.o -pthread -L../util/lib -L. -lgthread-2.0 -lgio-2.0 -lgobject-2.0 -lglib-2.0 -lintl
+18:14:59 **** Incremental Build of configuration Default for project SUB1 ****
+make all 
+gcc -c main.c -o main.o -pthread -Wall  -g -O0 -I../util/include
+gcc -o SP_TEST.EXE main.o -pthread -L../util/lib -L. -lgthread-2.0 -lgio-2.0 -lgobject-2.0 -lglib-2.0 -lintl
+08:37:51 **** Build of configuration Default for project JSON ****
+make all 
+gcc -c main.c -o main.o -pthread -Wall  -g -O0 -I../util/include
+gcc -o JSON.EXE main.o -pthread -L../util/lib -L. -lgthread-2.0 -lgio-2.0 -lgobject-2.0 -lglib-2.0 -lintl
+08:37:59 **** Build of configuration Default for project HTTP_SERVER ****
+make all 
+gcc -c main.c -o main.o -pthread -Wall  -g -O0 -I../util/include
+gcc -o HTTP_SERVER.EXE main.o -pthread -L../util/lib -L. -lgthread-2.0 -lgio-2.0 -lgobject-2.0 -lglib-2.0 -lintl
+08:43:31 **** Incremental Build of configuration Default for project JSON ****
+make all 
+gcc -c main.c -o main.o -pthread -Wall  -g -O0 -I../util/include
+main.c: In function 'main':
+main.c:33:5: error: unknown type name 'json_object'
+   33 |     json_object *myobj = json_object_new_object();
+      |     ^~~~~~~~~~~
+main.c:33:26: warning: implicit declaration of function 'json_object_new_object' [-Wimplicit-function-declaration]
+   33 |     json_object *myobj = json_object_new_object();
+      |                          ^~~~~~~~~~~~~~~~~~~~~~
+main.c:33:26: warning: initialization of 'int *' from 'int' makes pointer from integer without a cast [-Wint-conversion]
+main.c:34:5: warning: implicit declaration of function 'json_object_object_add' [-Wimplicit-function-declaration]
+   34 |     json_object_object_add(myobj, "name", json_object_new_string("KIM"));
+      |     ^~~~~~~~~~~~~~~~~~~~~~
+main.c:34:43: warning: implicit declaration of function 'json_object_new_string' [-Wimplicit-function-declaration]
+   34 |     json_object_object_add(myobj, "name", json_object_new_string("KIM"));
+      |                                           ^~~~~~~~~~~~~~~~~~~~~~
+main.c:36:31: warning: implicit declaration of function 'json_object_to_json_string_ext' [-Wimplicit-function-declaration]
+   36 |     const char *result_json = json_object_to_json_string_ext(myobj, JSON_C_TO_STRING_PLAIN);
+      |                               ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+main.c:36:69: error: 'JSON_C_TO_STRING_PLAIN' undeclared (first use in this function)
+   36 |     const char *result_json = json_object_to_json_string_ext(myobj, JSON_C_TO_STRING_PLAIN);
+      |                                                                     ^~~~~~~~~~~~~~~~~~~~~~
+main.c:36:69: note: each undeclared identifier is reported only once for each function it appears in
+main.c:39:5: error: unknown type name 'json_object'
+   39 |     json_object *root, *name, *phone;
+      |     ^~~~~~~~~~~
+main.c:40:12: warning: implicit declaration of function 'json_tokener_parse' [-Wimplicit-function-declaration]
+   40 |     root = json_tokener_parse(result_json);
+      |            ^~~~~~~~~~~~~~~~~~
+main.c:40:10: warning: assignment to 'int *' from 'int' makes pointer from integer without a cast [-Wint-conversion]
+   40 |     root = json_tokener_parse(result_json);
+      |          ^
+main.c:41:5: warning: implicit declaration of function 'json_object_object_get_ex' [-Wimplicit-function-declaration]
+   41 |     json_object_object_get_ex(root, "name", &name);
+      |     ^~~~~~~~~~~~~~~~~~~~~~~~~
+main.c:43:37: warning: implicit declaration of function 'json_object_get_string' [-Wimplicit-function-declaration]
+   43 |     printf("name: %s, phone: %s\n", json_object_get_string(name), json_object_get_string(phone));
+      |                                     ^~~~~~~~~~~~~~~~~~~~~~
+main.c:43:20: warning: format '%s' expects argument of type 'char *', but argument 2 has type 'int' [-Wformat=]
+   43 |     printf("name: %s, phone: %s\n", json_object_get_string(name), json_object_get_string(phone));
+      |                   ~^                ~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+      |                    |                |
+      |                    char *           int
+      |                   %d
+main.c:43:31: warning: format '%s' expects argument of type 'char *', but argument 3 has type 'int' [-Wformat=]
+   43 |     printf("name: %s, phone: %s\n", json_object_get_string(name), json_object_get_string(phone));
+      |                              ~^                                   ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+      |                               |                                   |
+      |                               char *                              int
+      |                              %d
+make: *** [Makefile:54: main.o] Error 1
+"make all" terminated with exit code 2. Build might be incomplete.
+08:44:08 **** Incremental Build of configuration Default for project JSON ****
+make all 
+gcc -c main.c -o main.o -pthread -Wall  -g -O0 -I../util/include
+gcc -o JSON.EXE main.o -pthread -L../util/lib -L. -lgthread-2.0 -lgio-2.0 -lgobject-2.0 -lglib-2.0 -lintl -lmicrohttpd -lcurl -ljson-c
+08:44:46 **** Incremental Build of configuration Default for project HTTP_SERVER ****
+make all 
+gcc -c main.c -o main.o -pthread -Wall  -g -O0 -I../util/include
+main.c:76:24: warning: 'response_error' defined but not used [-Wunused-function]
+   76 | static enum MHD_Result response_error(struct MHD_Connection *connection,
+      |                        ^~~~~~~~~~~~~~
+gcc -o HTTP_SERVER.EXE main.o -pthread -L../util/lib -L. -lgthread-2.0 -lgio-2.0 -lgobject-2.0 -lglib-2.0 -lintl -lmicrohttpd -lcurl -ljson-c
+08:44:51 **** Build of configuration Default for project HTTP_CLIENT ****
+make all 
+gcc -c main.c -o main.o -pthread -Wall  -g -O0 -I../util/include
+gcc -o HTTP_CLIENT.EXE main.o -pthread -L../util/lib -L. -lgthread-2.0 -lgio-2.0 -lgobject-2.0 -lglib-2.0 -lintl -lmicrohttpd -lcurl -ljson-c
+08:45:22 **** Incremental Build of configuration Default for project HTTP_CLIENT ****
+make all 
+gcc -c main.c -o main.o -pthread -Wall  -g -O0 -I../util/include
+gcc -o HTTP_CLIENT.EXE main.o -pthread -L../util/lib -L. -lgthread-2.0 -lgio-2.0 -lgobject-2.0 -lglib-2.0 -lintl -lmicrohttpd -lcurl -ljson-c
+08:52:03 **** Incremental Build of configuration Default for project HTTP_SERVER ****
+make all 
+make: Nothing to be done for 'all'.
+08:52:07 **** Incremental Build of configuration Default for project HTTP_CLIENT ****
+make all 
+make: Nothing to be done for 'all'.
+08:52:32 **** Incremental Build of configuration Default for project JSON ****
+make all 
+make: Nothing to be done for 'all'.

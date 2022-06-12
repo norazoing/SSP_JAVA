@@ -1,0 +1,6 @@
+08:52:32 **** Incremental Build of configuration Default for project JSON ****
+make all 
+make: Nothing to be done for 'all'.
+
+08:52:32 Build Finished. 0 errors, 0 warnings. (took 132ms)
+

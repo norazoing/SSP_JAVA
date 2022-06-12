@@ -1,0 +1,7 @@
+16:45:00 **** Clean-only build of configuration Default for project SUB4 ****
+make clean 
+rm -f SP_TEST.EXE
+rm -f main.o
+
+16:45:00 Build Finished (took 137ms)
+

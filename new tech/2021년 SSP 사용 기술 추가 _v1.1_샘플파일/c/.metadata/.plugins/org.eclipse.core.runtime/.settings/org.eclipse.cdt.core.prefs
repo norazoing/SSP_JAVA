@@ -1,0 +1,12 @@
+build.all.configs.enabled=false
+build.proj.ref.configs.enabled=false
+eclipse.preferences.version=1
+environment/workspace/CYGWIN_HOME/delimiter=;
+environment/workspace/CYGWIN_HOME/operation=append
+environment/workspace/CYGWIN_HOME/value=c\:\\c_test\\cygwin
+environment/workspace/append=true
+environment/workspace/appendContributed=true
+errorparser.default.ids=org.eclipse.cdt.autotools.core.ErrorParser;org.eclipse.cdt.core.GASErrorParser;org.eclipse.cdt.core.GLDErrorParser;org.eclipse.cdt.core.GCCErrorParser;org.eclipse.cdt.core.GmakeErrorParser;org.eclipse.cdt.core.VCErrorParser;org.eclipse.cdt.core.CWDLocator;org.eclipse.cdt.core.MakeErrorParser
+language.settings.providers.workspace.prefs.toggle=true
+macros/workspace=<?xml version\="1.0" encoding\="UTF-8" standalone\="no"?>\r\n<macros>\r\n<stringListMacro name\="Path" type\="VALUE_TEXT_LIST">\r\n<value name\="C\:/Program Files/Java/jre7/bin/client"/>\r\n<value name\="C\:/Program Files/Java/jre7/bin"/>\r\n<value name\="C\:/Program Files/Java/jre7/lib/i386"/>\r\n<value name\="C\:\\oraclexe\\app\\oracle\\product\\10.2.0\\server\\bin"/>\r\n<value name\="C\:\\Windows\\system32"/>\r\n<value name\="C\:\\Windows"/>\r\n<value name\="C\:\\Windows\\System32\\Wbem"/>\r\n<value name\="C\:\\Windows\\System32\\WindowsPowerShell\\v1.0"/>\r\n<value name\="C\:\\Program Files\\ESTsoft\\ALZip"/>\r\n<value name\="c\:\\Program Files\\Microsoft SQL Server\\100\\Tools\\Binn\\"/>\r\n<value name\="c\:\\Program Files\\Microsoft SQL Server\\100\\DTS\\Binn\\"/>\r\n<value name\="C\:\\Program Files\\Citrix\\ICAService\\"/>\r\n<value name\="C\:\\Program Files\\Citrix\\System32\\c\:\\c_test\\cygwin\\bin"/>\r\n<value name\="C\:\\Program Files\\ESTsoft\\ALZip"/>\r\n<value name\="C\:\\Program Files\\IDM Computer Solutions\\UltraEdit\\"/>\r\n<value name\="C\:\\c_test\\eclipse"/>\r\n</stringListMacro>\r\n</macros>\r\n
+org.eclipse.cdt.core.showSourceFilesInBinaries=true
