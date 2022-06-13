@@ -49,3 +49,14 @@ public class JsonSolve1 {
 		}
 	}
 }
+/*
+{
+"name":"spiderman",
+"age":45,
+"married":true,
+"specialty":["martial art", "gun"],
+"vaccine":{"1st":"done","2nd":"expected","3rd":null},
+"children": [{"name":"spiderboy", "age":10}, {"name":"spidergirl", "age":8}],
+"adress":null
+}
+*/
