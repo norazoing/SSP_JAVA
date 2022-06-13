@@ -1,7 +1,0 @@
-18:14:59 **** Incremental Build of configuration Default for project SUB1 ****
-make all 
-gcc -c main.c -o main.o -pthread -Wall  -g -O0 -I../util/include
-gcc -o SP_TEST.EXE main.o -pthread -L../util/lib -L. -lgthread-2.0 -lgio-2.0 -lgobject-2.0 -lglib-2.0 -lintl
-
-18:15:00 Build Finished. 0 errors, 0 warnings. (took 762ms)
-

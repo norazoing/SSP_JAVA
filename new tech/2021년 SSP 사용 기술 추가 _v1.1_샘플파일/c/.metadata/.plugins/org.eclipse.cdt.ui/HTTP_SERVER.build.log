@@ -1,6 +1,0 @@
-08:52:03 **** Incremental Build of configuration Default for project HTTP_SERVER ****
-make all 
-make: Nothing to be done for 'all'.
-
-08:52:03 Build Finished. 0 errors, 0 warnings. (took 144ms)
-
