@@ -16,9 +16,10 @@ public class JsonSolve3 {
 			String wholeData = new String(Files.readAllBytes(jsonFilePath));
 			Gson gson = new Gson();
 			JsonObject jsonObj = gson.fromJson(wholeData, JsonObject.class);
-			
+			 // keyset으로 모든 요소를 돌면서 타입을 출력
 			for (String key : jsonObj.keySet()) {
 				System.out.print("Key : "+key+" / Value Type : ");
+				// Jsonobject내의 하나하나는 JsonElement임.
 				JsonElement je = jsonObj.get(key);
 				if (je.isJsonPrimitive()) {
 					if (je.getAsJsonPrimitive().isString()) {
@@ -36,7 +37,7 @@ public class JsonSolve3 {
 					}
 				}
 				else if (je.isJsonArray()) {
-					System.out.println("Array");
+					System.out.println("Array"); // 재귀함수로 Array내 모든 tree구조를 출력가능.
 				}
 				else if (je.isJsonObject()) {
 					System.out.println("Object");					
