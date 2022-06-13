@@ -31,17 +31,19 @@ public class FileClient {
 		httpClient.stop();
 	}
 	
+	// { folder : input , files : [ filename1, filename2,...] }
 	private static String getFileList() {
-		Gson gson = new Gson();
-		JsonObject jo = new JsonObject();
+	Gson gson = new Gson();
+	JsonObject jo = new JsonObject();
         File directory = new File("./Input");
-		jo.addProperty("Folder", "Input");
+	jo.addProperty("Folder", "Input");
+		
         JsonArray jarr = new JsonArray();
         File[] fList = directory.listFiles();
         for (File file : fList) {
         	jarr.add(file.getName());
         }		
-        jo.add("FILES", jarr);
+        jo.add("FILES", jarr); // array 는 add로 처리
         
         String res = jo.toString();
         return res; 
