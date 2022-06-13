@@ -13,7 +13,8 @@ public class JsonSolve3 {
 		String filePath = "sample.json";
 		Path jsonFilePath = Paths.get(filePath);
 		try {
-			String wholeData = new String(Files.readAllBytes(jsonFilePath));
+			String wholeData = new String(Files.readAllBytes(jsonFilePath));// 좀 다른방법으로 파일읽음
+			// Gson객체를 만들고 Json파일로부터 읽어서 Jsonobject에 넣는다.
 			Gson gson = new Gson();
 			JsonObject jsonObj = gson.fromJson(wholeData, JsonObject.class);
 			 // keyset으로 모든 요소를 돌면서 타입을 출력
