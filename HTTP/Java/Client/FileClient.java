@@ -45,6 +45,7 @@ public class FileClient {
         }		
         jo.add("FILES", jarr); // array 는 add로 처리
         
+	// json 파일을 전송하기 위해 String으로 만들어 반환
         String res = jo.toString();
         return res; 
 	}
